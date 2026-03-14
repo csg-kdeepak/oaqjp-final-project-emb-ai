@@ -27,8 +27,6 @@ def get_dominant_emotion(emotions):
     dominant_emotion = None
     value = None
     for e, v in emotions.items():
-        if v == None:
-            continue
         if dominant_emotion is None or v > value:
             dominant_emotion = e
             value = v
