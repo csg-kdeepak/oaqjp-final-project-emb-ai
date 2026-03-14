@@ -1,0 +1,7 @@
+theia@theiadocker-kudeepak1:/home/project/final_project$ python3.11
+Python 3.11.14 (main, Oct 10 2025, 08:54:03) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection import emotion_detection
+>>> emotion_detection.emotion_detector("I love this new technology.")
+{'anger': 0.07262807, 'disgust': 0.018385282, 'fear': 0.13809502, 'joy': 0.2875985, 'sadness': 0.25590432}
+>>> 
